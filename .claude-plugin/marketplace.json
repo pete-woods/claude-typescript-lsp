@@ -1,0 +1,14 @@
+{
+  "name": "claude-typescript-lsp",
+  "description": "TypeScript 7 native language server plugin for Claude Code",
+  "owner": {
+    "name": "Pete Steyert-Woods"
+  },
+  "plugins": [
+    {
+      "name": "typescript-native-lsp",
+      "source": "./",
+      "description": "TypeScript/JavaScript code intelligence from TypeScript 7's native language server, run through pnpx"
+    }
+  ]
+}
